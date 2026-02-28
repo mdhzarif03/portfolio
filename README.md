@@ -1,15 +1,10 @@
 # Portfolio
 
 <p align="center">
-  <a href="https://yourusername.github.io/zarif-portfolio">
-    <img src="https://img.shields.io/badge/Website-Live-success?style=for-the-badge" alt="Website">
-  </a>
-  <a href="https://github.com/mdhzarif03/zarif-portfolio">
-    <img src="https://img.shields.io/badge/GitHub-Repo-24292F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge" alt="License">
-  </a>
+  <img src="https://img.shields.io/badge/Website-Live-success?style=for-the-badge" alt="Website">
+  <img src="https://img.shields.io/badge/GitHub-Repo-24292F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo">
+  <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge" alt="License">
+</p>
 </p>
 
 ## About
