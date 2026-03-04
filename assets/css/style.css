@@ -1,0 +1,60 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+    background: #27272a;
+    border-radius: 10px;
+    border: 3px solid #09090b;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3f3f46;
+}
+
+/* Project Card Hover */
+.project-card {
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.project-card:hover {
+    transform: translateY(-8px);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Custom Selection */
+::selection {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.no-select {
+    user-select: none; /* Prevents text selection */
+    pointer-events: none; /* Disables clicks on this element */
+    -webkit-user-select: none; /* Safari/Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+}
+
+/* Custom Circular Pointer */
+.pointer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;              /* default size */
+    height: 20px;
+    border: 2px solid #00ffcc; /* pointer color */
+    border-radius: 50%;
+    pointer-events: none;      /* allow clicks through it */
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out, width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+    z-index: 9999;
+    mix-blend-mode: difference; /* optional glow/contrast effect */
+    background-color: transparent;
+}
